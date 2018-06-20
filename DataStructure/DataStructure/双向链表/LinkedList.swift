@@ -114,6 +114,62 @@ public class LinkedList<T>{
         pre?.next = newNode
         
     }
-    //https://juejin.im/post/5a7096fa6fb9a01cb64f163b#heading-35
     
+    public func removeAll(){
+        head = nil
+    }
+    public func removeLast()->T?{
+        guard !isEmpty else{
+            return nil
+        }
+        return remove(node: last!)
+    }
+    public func remove(node:Node)->T?{
+        guard head != nil else{
+            print("linked list is empty")
+            return nil
+        }
+        let prev = node.previous
+        let next = node.next
+        if let prev = prev {
+            prev.next = next
+        }else{
+            head = next
+        }
+        next?.previous = prev
+        
+        node.previous = nil
+        node.next = nil
+        return node.value
+        
+    }
+    
+    public func removeAt(_ index:Int)->T?{
+        guard head != nil else{
+            print("linked list is empty")
+            return nil
+        }
+        let node = self.node(atIndex: index)
+        guard  node != nil else {
+            print("atIndex not fund Node")
+            return nil
+        }
+        return remove(node: node!)
+    }
+    
+    public func printAllNodes(){
+        guard head != nil else{
+            print("linked list is empty")
+            return
+        }
+        var node = head
+        print("\nstart printng all nodes:")
+        for index in 0..<count {
+            if node == nil{
+                break
+            }
+            print("[\(index)]\(node!.value)")
+            node = node?.next
+        }
+    }
 }
