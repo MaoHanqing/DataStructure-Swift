@@ -75,3 +75,37 @@
 * 单向链表：单向链表的链接方向是单向的，其中每个节点都有指针成员变量指向链表中的下一个结点。
 * 双向链表：双向链表的每个数据结点中都有两个指针，分别指向直接后继和直接前驱。所以，从链表中的任意一个结点开始，都可以很方便的访问他的前驱结点和后继结点，它的链接方向是双向的。
 * 循环链表：循环链表是另一种形式的链式存贮结构，它的特点是表中的最后一个结点的指针指向头结点，整个链表形成一个环。
+    ADT 节点（node）
+
+    Data
+      Value：持有的数据
+
+    Operation
+      init:初始化
+      previous:指向上一节点的指针
+      next:指向下一个节点的指针
+    endADT
+
+链表的抽象数据类型
+    ADT 链表（linked list）
+
+    Data
+      linked list：持有的线性表
+
+    Operation
+      init:初始化
+      count:持有的节点总个数
+      isEmpty:是否为空
+      first：头节点
+      last：尾节点
+      node：传入index返回节点
+      insert：插入node到指定的index
+      insertToHead：插入节点到表头
+      appendToTail：插入节点到表尾
+      removeAll：移除所有节点
+      remove：移除传入节点
+      removeAt：移除传入Index的节点
+
+    endADT
+
+  
