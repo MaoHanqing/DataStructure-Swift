@@ -136,3 +136,22 @@
       top：返回栈顶元素
 
     endADT
+
+##### 队列抽象数据类型
+
+![avatar](pic02.png)
+
+    ADT 队列（Queue）
+
+    Data
+      linked list：持有的线性表
+
+    Operation
+      init：初始化
+      count：栈的元素个数
+      isEmpty：是否为空
+      front：获得队列的头元素
+      enqueue：插入到队尾
+      dequeue：删除队列头元素并返回
+
+    endADT

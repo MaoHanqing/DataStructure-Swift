@@ -17,6 +17,8 @@
 		EC0301DE20DCDFAA0078F141 /* LinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0301DD20DCDFAA0078F141 /* LinkedListTest.swift */; };
 		ECA6958920E0CC210019AE01 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6958820E0CC210019AE01 /* Stack.swift */; };
 		ECA6958B20E0D0B90019AE01 /* StackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6958A20E0D0B90019AE01 /* StackTest.swift */; };
+		ECA6958E20E0DF910019AE01 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6958D20E0DF910019AE01 /* Queue.swift */; };
+		ECA6959020E0E3210019AE01 /* QueueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6958F20E0E3210019AE01 /* QueueTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		EC0301DD20DCDFAA0078F141 /* LinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTest.swift; sourceTree = "<group>"; };
 		ECA6958820E0CC210019AE01 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		ECA6958A20E0D0B90019AE01 /* StackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTest.swift; sourceTree = "<group>"; };
+		ECA6958D20E0DF910019AE01 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		ECA6958F20E0E3210019AE01 /* QueueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		EC0301C120DA47AB0078F141 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				ECA6958C20E0DED60019AE01 /* 队列 */,
 				ECA6958720E0CBF50019AE01 /* 栈 */,
 				EC0301D420DA4A2C0078F141 /* 双向链表 */,
 				EC0301C220DA47AB0078F141 /* AppDelegate.swift */,
@@ -93,6 +98,15 @@
 				ECA6958A20E0D0B90019AE01 /* StackTest.swift */,
 			);
 			path = "栈";
+			sourceTree = "<group>";
+		};
+		ECA6958C20E0DED60019AE01 /* 队列 */ = {
+			isa = PBXGroup;
+			children = (
+				ECA6958D20E0DF910019AE01 /* Queue.swift */,
+				ECA6958F20E0E3210019AE01 /* QueueTest.swift */,
+			);
+			path = "队列";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +184,9 @@
 				ECA6958B20E0D0B90019AE01 /* StackTest.swift in Sources */,
 				EC0301D620DA4A400078F141 /* LinkedListNode.swift in Sources */,
 				EC0301C520DA47AB0078F141 /* ViewController.swift in Sources */,
+				ECA6958E20E0DF910019AE01 /* Queue.swift in Sources */,
 				EC0301D820DA4C500078F141 /* LinkedList.swift in Sources */,
+				ECA6959020E0E3210019AE01 /* QueueTest.swift in Sources */,
 				EC0301C320DA47AB0078F141 /* AppDelegate.swift in Sources */,
 				ECA6958920E0CC210019AE01 /* Stack.swift in Sources */,
 				EC0301DE20DCDFAA0078F141 /* LinkedListTest.swift in Sources */,

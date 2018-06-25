@@ -8,7 +8,7 @@
 
 import Foundation
 struct StackTest {
-    func test()  {
+   static func test()  {
         var stack = Stack<Any>()
         stack.printAllEliments()
         stack.isEmpty
