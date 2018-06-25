@@ -15,6 +15,8 @@
 		EC0301D620DA4A400078F141 /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0301D520DA4A400078F141 /* LinkedListNode.swift */; };
 		EC0301D820DA4C500078F141 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0301D720DA4C500078F141 /* LinkedList.swift */; };
 		EC0301DE20DCDFAA0078F141 /* LinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0301DD20DCDFAA0078F141 /* LinkedListTest.swift */; };
+		ECA6958920E0CC210019AE01 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6958820E0CC210019AE01 /* Stack.swift */; };
+		ECA6958B20E0D0B90019AE01 /* StackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6958A20E0D0B90019AE01 /* StackTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		EC0301D520DA4A400078F141 /* LinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
 		EC0301D720DA4C500078F141 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		EC0301DD20DCDFAA0078F141 /* LinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTest.swift; sourceTree = "<group>"; };
+		ECA6958820E0CC210019AE01 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		ECA6958A20E0D0B90019AE01 /* StackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		EC0301C120DA47AB0078F141 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				ECA6958720E0CBF50019AE01 /* 栈 */,
 				EC0301D420DA4A2C0078F141 /* 双向链表 */,
 				EC0301C220DA47AB0078F141 /* AppDelegate.swift */,
 				EC0301C420DA47AB0078F141 /* ViewController.swift */,
@@ -79,6 +84,15 @@
 				EC0301DD20DCDFAA0078F141 /* LinkedListTest.swift */,
 			);
 			path = "双向链表";
+			sourceTree = "<group>";
+		};
+		ECA6958720E0CBF50019AE01 /* 栈 */ = {
+			isa = PBXGroup;
+			children = (
+				ECA6958820E0CC210019AE01 /* Stack.swift */,
+				ECA6958A20E0D0B90019AE01 /* StackTest.swift */,
+			);
+			path = "栈";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,10 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA6958B20E0D0B90019AE01 /* StackTest.swift in Sources */,
 				EC0301D620DA4A400078F141 /* LinkedListNode.swift in Sources */,
 				EC0301C520DA47AB0078F141 /* ViewController.swift in Sources */,
 				EC0301D820DA4C500078F141 /* LinkedList.swift in Sources */,
 				EC0301C320DA47AB0078F141 /* AppDelegate.swift in Sources */,
+				ECA6958920E0CC210019AE01 /* Stack.swift in Sources */,
 				EC0301DE20DCDFAA0078F141 /* LinkedListTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
